@@ -2,9 +2,13 @@
 using namespace std;
 
 void solve(){
-
-    
-
+    int a, b;
+    cin>>a>>b;
+    if(!a || !b){
+        cout<<0;
+    }else{
+        cout<<a+b;
+    }
 }
 
 int main() {

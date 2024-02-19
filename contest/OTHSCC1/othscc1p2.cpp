@@ -2,9 +2,15 @@
 using namespace std;
 
 void solve(){
-
-    
-
+    int n, v, max=-1, sum=0;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        cin>>v;
+        if(v>max) max = v;
+        sum+=v;
+    }
+    sum-=max;
+    cout<<floor(sum/(n-1));
 }
 
 int main() {
