@@ -2,7 +2,7 @@
 using namespace std;
 
 void solve(){
-    
+    cout<<" Hello test 123 ";
 }
 
 int main() {
